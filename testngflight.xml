@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="FlightBookingTest.TestCasePaymentpage_15"/>
+      <class name="FlightBookingTest.TestCaseRoundTrip_5"/>
+      <class name="FlightBookingTest.TestCaseloginfail_3"/>
+      <class name="FlightBookingTest.TestCaseLoginSearchLogout_12"/>
+      <class name="FlightBookingTest.TestCaseMultiplepassenger_9"/>
+      <class name="FlightBookingTest.TestCaseOneWay_4"/>
+      <class name="FlightBookingTest.TestCaseApplyCoupon_13"/>
+      <class name="FlightBookingTest.TestCaseSearchDomesticRoundtrip_14"/>
+      <class name="FlightBookingTest.TestCase_flightdetails_8"/>
+      <class name="FlightBookingTest.TestCaseSearchClass_6"/>
+      <class name="FlightBookingTest.TestCaseFlightDetailsBaggage_10"/>
+      <class name="FlightBookingTest.TestCaseLogin_2"/>
+      <class name="FlightBookingTest.TestCaseRegistrationpage_1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Amazon_Test.TestCase_Applycoupon_13">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="launch_quit"/>
+          <include name="addtocart"/>
+        </methods>
+      </class> <!-- Amazon_Test.TestCase_Applycoupon_13 -->
+      <class name="Amazon_Test.TestCaseReturnsOrderspage_14">
+        <methods>
+          <include name="returnsorder"/>
+          <include name="launch_browser"/>
+          <include name="launch_quit"/>
+        </methods>
+      </class> <!-- Amazon_Test.TestCaseReturnsOrderspage_14 -->
+      <class name="Amazon_Test.TestCase_Addtocart_9">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="launch_quit"/>
+          <include name="addtocart"/>
+        </methods>
+      </class> <!-- Amazon_Test.TestCase_Addtocart_9 -->
+      <class name="Amazon_Test.TestCaseOrderpage_11">
+        <methods>
+          <include name="addtocart"/>
+          <include name="launch_browser"/>
+          <include name="launch_quit"/>
+        </methods>
+      </class> <!-- Amazon_Test.TestCaseOrderpage_11 -->
+      <class name="Amazon_Test.TestCaseSearchFilter_6">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="launch_quit"/>
+          <include name="searchresults"/>
+        </methods>
+      </class> <!-- Amazon_Test.TestCaseSearchFilter_6 -->
+      <class name="Amazon_Test.TestCaseSorting_8">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="sortingprice_reviews"/>
+          <include name="launch_quit"/>
+        </methods>
+      </class> <!-- Amazon_Test.TestCaseSorting_8 -->
+      <class name="Amazon_Test.TestCaseProductDetailpage_7">
+        <methods>
+          <include name="ProductDetailPage_7"/>
+          <include name="launch_browser"/>
+          <include name="launch_quit"/>
+        </methods>
+      </class> <!-- Amazon_Test.TestCaseProductDetailpage_7 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
