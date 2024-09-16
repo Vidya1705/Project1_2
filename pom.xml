@@ -93,6 +93,7 @@
 					<configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>testngProject1.xml</suiteXmlFile>
+							<suiteXmlFile>testngflight.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 		</plugin>
